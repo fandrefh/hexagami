@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-with open('/etc/keys/hexagami_secret_key.txt') as f:
+with open('/home/webapps/confs/keys/hexagami_secret_key.txt') as f:
     SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'hexagami.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
-from hexagami.settings_db import DATABASES
+from home.webapps.confs.conn.settings_db import DATABASES
 
 
 # Internationalization
