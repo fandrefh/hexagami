@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'hexagami.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
-from home.webapps.confs.conn.settings_db import DATABASES
+from hexagami.settings_db import DATABASES
 
 
 # Internationalization
