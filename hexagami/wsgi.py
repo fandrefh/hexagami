@@ -7,7 +7,12 @@ For more information on this file, see
 https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/
 """
 
-import os
+import os, site, sys
+
+site.addsitedir('/home/webapps/vhexagami/lib/python3.4/site-packages')
+
+sys.path.append('/home/webapps/vhexagami')
+sys.path.append('/home/webapps/vhexagami/hexagami')
 
 from django.core.wsgi import get_wsgi_application
 
