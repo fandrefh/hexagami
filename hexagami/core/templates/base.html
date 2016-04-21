@@ -1,0 +1,423 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+
+<html>
+<head>
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hexagami Team - Nasa Space Apps Challenge</title>
+<meta name="description" content="Hexagami Team - Nasa Space Apps Challenge 2016">
+<link rel="shortcut icon" href="{% static "img/favicon.ico" %}" type="image/x-icon">
+<link rel="icon" href="{% static "img/favicon.ico" %}" type="image/x-icon">
+<link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+<link href="{% static "css/font-awesome.min.css" %}" rel="stylesheet">
+<link href="{% static "css/magnific-popup.css" %}" rel="stylesheet">
+<link href="{% static "css/main.css" %}" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+<body>
+
+<!--hero section-->
+
+<header class="hero-section"> 
+  
+  <!--navigation-->
+  
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="">
+          <img class="logo-nav" src="{% static "img/logo-nav.png" %}" alt="Logo">
+          <img class="logo-head" src="{% static "img/logo-head.png" %}" alt="Logo">
+        </a> 
+      </div>
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav nav-left">
+          <li><a href="#features">Project</a></li>
+          <!--<li><a href="#reviews">Reviews</a></li>
+          <li><a href="#pricing">Pricing</a></li>-->
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!--<ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+          <li><a href="#" class="btn">JOIN US</a></li>
+        </ul>-->
+      </div>
+    </div>
+  </nav>
+  
+  <!--navigation end--> 
+  
+  <!--welcome message-->
+  
+  <section class="container text-center welcome-message">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>We are the Hexagami Team</h1>
+        <h2>We made beautiful things!</h2>
+        <div class="play-btn"> <a href="https://vimeo.com/109054393" class="play litebox-hero"><img src="{% static "img/play-btn.png" %}" alt="play"></a> </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--welcome message end--> 
+  
+</header>
+
+<!--hero section end-->
+
+<!--benefits-->
+
+<section class="benefits section-spacing text-center" id="features">
+  <div class="container">
+    <header class="section-header">
+      <h2>Origami Space Recycled</h2>
+      <h3>Know more about the project</h3>
+    </header>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4>Description</h4>
+        <p>
+          Design and model (virtually, with paper or 3D printed) the packaging of key mission components for size constrained spacecraft to minimize stowed volume, but maximize capabilities.
+        </p>
+        <h4>Background</h4>
+        <p>
+          There is only so much volume a rocket can carry into space. Solar arrays, parachutes, habitats, storage tanks, inflatable aeroshells all could be packaged more effectively to enable more cargo on any given launch, or perhaps even reduce the number of launches needed to deliver goods to space.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--benefits end-->
+
+<!--Team-->
+
+<section class="team section-spacing text-center" id="team">
+  <div class="container">
+    <header class="section-header">
+      <h2>Meet The Team</h2>
+      <h3>Folks who created this awesome project</h3>
+    </header>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="team-details">
+          <figure><img src="{% static "img/team-1.jpg" %}" alt="Team Member">
+            <figcaption>
+              <div>
+                <p>
+                  Introduction:
+                </p>
+                <p>
+                  Student of Mechanical Engineering, Works with Robotics, mainly related to Artificial Intelligence using Fuzzy Logic and Potential Field. It also has experience in 3D Design mainly related to automotive and thermodynamics projects.
+                </p>
+                <p>
+                  Skills:
+                </p>
+                <p>
+                  SOLIDWORKS, AUTOCAD 3D, MATLAB, SIMULINK, V-REP, ANSYS, MICROSOFT PROJECT
+                </p>
+                <p>
+                  Duties:
+                </p>
+                <p>
+                  Responsible for the 3D Design of the project, Simulation in MATLAB and Rocket Project.
+                </p>
+                
+                <!--social-->
+                
+                <ul class="social">
+                  <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+                
+                <!--social end--> 
+                
+              </div>
+            </figcaption>
+          </figure>
+          <div class="team-info">
+            <h4>Carlos Erlan</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-details">
+          <figure><img src="{% static "img/team-3.jpg" %}" alt="Team Member">
+            <figcaption>
+              <div>
+                <p>
+                  Introduction:
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleifend arcu. Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <p>
+                  Skills:
+                </p>
+                <p>
+                  SOLIDWORKS, SketchUp
+                </p>
+                <p>
+                  Duties:
+                </p>
+                <p>
+                  Responsible for the 3D Design of the project and Rocket Project.
+                </p>
+                
+                <!--social-->
+                
+                <ul class="social">
+                  <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+                
+                <!--social end--> 
+                
+              </div>
+            </figcaption>
+          </figure>
+          <div class="team-info">
+            <h4>Antonio José</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-details">
+          <figure><img src="{% static "img/team-3.jpg" %}" alt="Team Member">
+            <figcaption>
+              <div>
+                <p>
+                  Introduction:
+                </p>
+                <p>
+                  Web developer, works Python and Django, enthusiat Android and JavaScript.
+                </p>
+                <p>
+                  Teacher at Senac/PI, teaching Web Developing with Python and Django, Android Development and Database.
+                </p>
+                <p>
+                  Skills:
+                </p>
+                <p>
+                  SOLIDWORKS, SOLIDEDGE, AUTOCAD, MATLAB
+                </p>
+                <p>
+                  Duties:
+                </p>
+                <p>
+                  Responsible for the 3D Design of the project.
+                </p>
+                
+                <!--social-->
+                
+                <ul class="social">
+                  <li><a href="https://github.com/fandrefh" target="_blank"><i class="fa fa-github"></i></a></li>
+                  <li><a href="https://www.facebook.com/fandrefh" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+                
+                <!--social end--> 
+                
+              </div>
+            </figcaption>
+          </figure>
+          <div class="team-info">
+            <h4>Gilson Lopes</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="team-details">
+          <figure><img src="{% static "img/team-3.jpg" %}" alt="Team Member">
+            <figcaption>
+              <div>
+                <p>
+                  Introduction:
+                </p>
+                <p>
+                  Web developer, works Python and Django, enthusiat Android and JavaScript.
+                </p>
+                <p>
+                  Teacher at Senac/PI, teaching Web Developing with Python and Django, Android Development and Database.
+                </p>
+                <p>
+                  Skills:
+                </p>
+                <p>
+                  SOLIDWORKS, INVENTORY, AUTOCAD, MATLAB
+                </p>
+                <p>
+                  Duties:
+                </p>
+                <p>
+                  Responsible for the 3D Design of the project.
+                </p>
+                
+                <!--social-->
+                
+                <ul class="social">
+                  <li><a href="https://github.com/fandrefh" target="_blank"><i class="fa fa-github"></i></a></li>
+                  <li><a href="https://www.facebook.com/fandrefh" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+                
+                <!--social end--> 
+                
+              </div>
+            </figcaption>
+          </figure>
+          <div class="team-info">
+            <h4>Sergio Henrique</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-details">
+          <figure><img src="{% static "img/team-3.jpg" %}" alt="Team Member">
+            <figcaption>
+              <div>
+                <p>
+                  Introduction:
+                </p>
+                <p>
+                  Web developer, works Python and Django, enthusiat Android and JavaScript.
+                </p>
+                <p>
+                  Teacher at Senac/PI, teaching Web Developing with Python and Django, Android Development and Database.
+                </p>
+                <p>
+                  Skills:
+                </p>
+                <p>
+                  Python, Django, Android
+                </p>
+                <p>
+                  Duties:
+                </p>
+                <p>
+                  Responsible for create the Website and Android APPS.
+                </p>
+                
+                <!--social-->
+                
+                <ul class="social">
+                  <li><a href="https://github.com/fandrefh" target="_blank"><i class="fa fa-github"></i></a></li>
+                  <li><a href="https://www.facebook.com/fandrefh" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+                
+                <!--social end--> 
+                
+              </div>
+            </figcaption>
+          </figure>
+          <div class="team-info">
+            <h4>Francisco André</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-details">
+          <figure><img src="{% static "img/team-2.jpg" %}" alt="Team Member">
+            <figcaption>
+              <div>
+                <p>
+                  Introduction:
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleifend arcu. Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <p>
+                  Skills:
+                </p>
+                <p>
+                  C++, MATLAB, V-REP, Arduino
+                </p>
+                <p>
+                  Duties:
+                </p>
+                <p>
+                  Responsible for Simulation 3D using V-REP.
+                </p>
+                
+                <!--social-->
+                
+                <ul class="social">
+                  <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+                
+                <!--social end--> 
+                
+              </div>
+            </figcaption>
+          </figure>
+          <div class="team-info">
+            <h4>Nadia Matos</h4>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+</section>
+
+<!--Team end-->
+
+<!--contact us-->
+
+<section class="contact section-spacing text-center" id="contact">
+  <div class="container">
+    <header class="section-header">
+      <h2>Contact Us</h2>
+      <h3>Have any questions? Get in touch.</h3>
+    </header>
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-6">
+      <h4>Carlos Erlan</h4>
+      <h5>+55 86 99956 7160</h5>
+      <h4>Antonio José</h4>
+      <h5>+55 86 9832 8378</h5>
+      <h4>Gilson Lopes</h4>
+      <h5>+55 86 99802 3597</h5>
+    </div>
+    <div class="col-sm-6">
+      <h4>Sergio Henrique</h4>
+      <h5>+55 86 98812 4945</h5>
+      <h4>Francisco André</h4>
+      <h5>+55 86 98813 5802</h5>
+      <h4>Nadia Matos</h4>
+      <h5>+55 86 99558 0749</h5>
+    </div>
+  </div>
+  
+</section>
+
+<!--contact us end--> 
+
+<!--site-footer-->
+<footer class="site-footer section-spacing text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"> <small>2016 Hexagami Team</small></div>
+    </div>
+  </div>
+</footer>
+<!--site-footer end--> 
+
+<script src="{% static "js/jquery-2.1.4.min.js" %}"></script> 
+<script src="{% static "js/bootstrap.min.js" %}"></script> 
+<script src="{% static "js/waypoints.min.js" %}"></script> 
+<script src="{% static "js/jquery.animateNumber.min.js" %}"></script> 
+<script src="{% static "js/waypoints-sticky.min.js" %}"></script> 
+<script src="{% static "js/retina.min.js" %}"></script> 
+<script src="{% static "js/jquery.magnific-popup.min.js" %}"></script> 
+<script src="{% static "js/jquery.ajaxchimp.min.js" %}"></script> 
+<script src="{% static "js/tweetie.min.js" %}"></script>
+<script src="{% static "js/main.js" %}"></script>
+</body>
+</html>
