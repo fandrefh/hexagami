@@ -3,3 +3,5 @@ include
 lib
 *.sqlite3
 pip-selfcheck.json
+local_settings.py
+settings_db.py
