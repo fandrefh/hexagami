@@ -621,6 +621,7 @@ blockquote cite {
   overflow: hidden;
   width: 360px;
   max-width: 100%;
+  max-height: 470px;
   margin: 0 auto;
 }
 
